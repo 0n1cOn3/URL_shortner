@@ -66,16 +66,21 @@ Supported / auto-detected platforms:
 Installation & Basic Usage
 1. Clone the repository
 
+```bash
 git clone https://github.com/onkarhanchate14/URL_shortner.git
 cd URL_shortner
+```
 
 2. Make the wrapper executable
-
+```bash
 `chmod +x url.sh`
+```
 
 3. Run the URL shortener
 
+```bash
 `./url.sh`
+```
 
 What happens:
 
