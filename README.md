@@ -91,14 +91,13 @@ What happens:
 
     shortner.py is executed inside the virtual environment.
 
-Using the Shortener (Interactive Flow)
+## Using the Shortener (Interactive Flow)
 
 After the banner, the Python script will prompt you:
 
 Enter URL:
 
-Enter a full URL, for example:
-
+For example:
 https://example.com/some/path?param=value
 
 Behaviour:
@@ -131,7 +130,7 @@ If every provider fails (e.g. `no internet`, `blocked services`, `etc`.), you wi
 > [!CAUTION]
 > [!] Failed to shorten URL. Check internet connection or URL validity.
 
-Termux Usage (Android)
+## Termux Usage (Android)
 
 On Termux, the process is essentially the same. You only need to ensure git is available first:
 
@@ -145,23 +144,24 @@ chmod +x url.sh
 ```
 
 The wrapper will use pkg as the package manager and handle Python and dependency setup automatically (as far as Termux allows).
-Troubleshooting
+
+## Troubleshooting
 No supported package manager found
 
-Error:
-
-[!] No supported package manager found.
-Please install `python3` and `python3-venv` manually.
+> [!CAUTION]
+> Error:
+> [!] No supported package manager found.
+> Please install `python3` and `python3-venv` manually.
 
 Reason:
 
-    You are on a very unusual system or missing a standard package manager.
+    You're using unlikely an unusual system or missing a standard package manager.
 
 Fix:
 
     Install at least python3 and curl manually.
 
-    On Debian/Ubuntu also install:
+    On Debian/Ubuntu it also needd to be installed:
 
 ```bash
 sudo apt-get update
