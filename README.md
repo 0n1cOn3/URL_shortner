@@ -1,4 +1,4 @@
-# URL_shortner
+# Another Yet URL Shortner
 ## v2.0 — Portable URL Shortener for Linux & Termux
 
 An open-source, portable URL shortener for Linux, Termux and other POSIX-like environments.
