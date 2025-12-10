@@ -1,5 +1,5 @@
 # URL_shortner
-## v1.2 — Portable URL Shortener for Linux & Termux
+## v2.0 — Portable URL Shortener for Linux & Termux
 
 An open-source, portable URL shortener for Linux, Termux and other POSIX-like environments.
 
