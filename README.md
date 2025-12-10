@@ -119,15 +119,17 @@ Behaviour:
 
 Example output:
 
-Successfully Shortened URLs:
+> [!TIP]
+> Successfully Shortened URLs:
+>
+> [+] TINYURL: https://tinyurl.com/xxxxxxx
+> [+] ISGD:    https://is.gd/yyyyyyy
+> [+] DAGD:    https://da.gd/zzzzzzz
 
- [+] TINYURL: https://tinyurl.com/xxxxxxx
- [+] ISGD:    https://is.gd/yyyyyyy
- [+] DAGD:    https://da.gd/zzzzzzz
+If every provider fails (e.g. `no internet`, `blocked services`, `etc`.), you will see:
 
-If every provider fails (e.g. no internet, blocked services, etc.), you will see:
-
-[!] Failed to shorten URL. Check internet connection or URL validity.
+> [!CAUTION]
+> [!] Failed to shorten URL. Check internet connection or URL validity.
 
 Termux Usage (Android)
 
@@ -171,15 +173,21 @@ Then run:
 ```bash
 ./url.sh
 ```
-Failed to create virtual environment
 
-
-Error (during venv setup):
 
 > [!CAUTION]
 > [!] Failed to create virtual environment.
 
-Try running: sudo apt install python3-full (or python3-venv)
+or 
+
+> [!CAUTION]
+> [!] Error: during venv setup
+
+Try running: 
+
+```bash
+sudo apt install python3-full (or python3-venv
+```
 
 Fix (Debian/Ubuntu):
 
